@@ -239,7 +239,7 @@ git checkout -b <branch-name>
 
 ## Step 10: Test and Validate Your Changes
 
-Before submitting your work, run these validation checks locally. All 56 authoritative domain test suites run completely offline using mock harnesses with zero live database connection or network credential requirements:
+Before submitting your work, run these validation checks locally. All 85 authoritative domain test suites run completely offline using mock harnesses with zero live database connection or network credential requirements:
 
 1. **Check Code Quality & Formatting**:
    ```bash
@@ -252,7 +252,7 @@ Keeping code cleanly formatted and linted makes your pull request easy to review
 
 > 💡 **Code Formatting & Linting Guidelines Box**
 > - **Run ESLint before committing**: Always run `npm run lint` to catch unused variables, missing React hook dependencies, and formatting issues early.
-> - **Verify TypeScript types**: Run `npx tsc --noEmit` to ensure all types and imports compile cleanly.
+> - **Verify TypeScript types**: Run `npm run typecheck` to ensure all types and imports compile cleanly.
 > - **Recommended IDE Extensions (VS Code)**:
 >   - **ESLint** (`dbaeumer.vscode-eslint`) — highlights lint rules inline as you type.
 >   - **Prettier - Code formatter** (`esbenp.prettier-vscode`) — keeps indentation (2 spaces), quotes, and trailing commas consistent across `.ts`, `.tsx`, `.json`, and `.md` files.
@@ -260,9 +260,9 @@ Keeping code cleanly formatted and linted makes your pull request easy to review
 > - **Keep diffs minimal**: Format only the files you touched for your issue so your pull request diff stays small and focused.
 2. **Check TypeScript Types**:
    ```bash
-   npx tsc --noEmit
+   npm run typecheck
    ```
-3. **Run the Automated Test Suite (56 Suites)**:
+3. **Run the Automated Test Suite (85 Suites)**:
    ```bash
    npm test
    # (or: node scratch/run-tests.mjs)
