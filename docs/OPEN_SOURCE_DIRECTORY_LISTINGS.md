@@ -17,7 +17,7 @@ This document contains the canonical, pre-formatted project descriptions and sub
 ```markdown
 # 🛡️ PACT OS — Local-First Accountability Operating System
 
-PACT OS is a high-performance, open-source, local-first accountability operating system built with Next.js 15, TypeScript, TailwindCSS, and Supabase. 
+PACT OS is a high-performance, open-source, local-first accountability operating system built with Next.js 16, React 19, TypeScript 5, TailwindCSS v4, and Supabase. 
 
 Engineered for individuals seeking uncompromising discipline, PACT OS integrates a Financial Discipline Engine (real-time monetary commitments & charity pledges), Focus Session Manager (Pomodoro & deep work telemetry), Habit Streak Calculator, and Zero-Telemetry Local Storage Privacy.
 
@@ -27,12 +27,12 @@ Engineered for individuals seeking uncompromising discipline, PACT OS integrates
 - 🎯 **Focus Engine & Pomodoro**: Dynamic timer, live activity indicator, and distraction audio traps.
 - 📊 **Habit Streak & Routines**: Multi-frequency streak calculators with leap-year boundary safety.
 - 🔐 **Zero-Knowledge Privacy**: Passkeys (WebAuthn), local IndexedDB caching, and zero tracking scripts.
-- 🤝 **99+ Curated Good First & Community Issues**: Curated, single-file beginner tasks with exact local test commands.
+- 🤝 **150+ Curated Good First & Community Issues**: Curated, single-file beginner tasks with exact local test commands.
 
 ### 🛠️ Tech Stack
-- **Frontend**: Next.js 15 (App Router), React 19, TypeScript, TailwindCSS, Lucide Icons
+- **Frontend**: Next.js 16 (App Router), React 19, TypeScript 5, TailwindCSS v4, Lucide Icons
 - **Backend & DB**: Supabase (PostgreSQL, RLS security), WebAuthn Passkeys
-- **Testing & Quality**: Vitest, Custom Domain Validation Matrix (56 Test Suites, 100% Passing)
+- **Testing & Quality**: Vitest, Custom Domain Validation Matrix (85 Test Suites, 100% Passing)
 
 ### 🔗 Quick Links
 - 🐙 **GitHub Repository**: https://github.com/TheVicky1/Pact_OS
