@@ -342,16 +342,16 @@ To keep PR diffs clean and prevent accidental leaks:
 
 ## 17. Testing & Local Validation Protocol
 
-Before opening a pull request, execute the local validation suite. All 56 authoritative domain and security tests run in a completely offline environment without requiring live Supabase or Stripe credentials:
+Before opening a pull request, execute the local validation suite. All 85 authoritative domain and security tests run in a completely offline environment without requiring live Supabase or Stripe credentials:
 
 ```bash
 # 1. Code style & linting check
 npm run lint
 
 # 2. Strict TypeScript type check
-npx tsc --noEmit
+npm run typecheck
 
-# 3. Run all 56 authoritative domain test suites
+# 3. Run all 85 authoritative domain test suites
 npm test
 # (or: node scratch/run-tests.mjs)
 
