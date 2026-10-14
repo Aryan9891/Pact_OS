@@ -12,8 +12,11 @@
 | **Integration Line** | `phase-6` |
 | **Contributor Expansion Branch** | `community/open-source-contributor-expansion` |
 | **Certified Application Baseline** | `9d83eb8` (Phase 14 Production Freeze) |
+| **Community Contributors** | **41 Total Contributors** ([CONTRIBUTORS.md](../CONTRIBUTORS.md)) |
+| **Repository Issue Volume** | **469 Total Issues** (309 Open, 160 Closed) |
+| **Pull Request Throughput** | **137 Pull Requests** (120 Merged, 2 Open, 15 Closed) |
 | **Supabase Migrations** | **26/26 Sequential Migrations (Frozen)** |
-| **Authoritative Test Matrix** | **56/56 Test Suites (100% Pass)** |
+| **Authoritative Test Matrix** | **85/85 Test Suites (100% Pass, 0 Failures)** |
 | **Quality Gates** | **TypeScript Strict (0 errors), ESLint (0 warnings), Release Preflight (12/12 PASS)** |
 
 ---
@@ -38,19 +41,19 @@ external contributor fork
 
 ---
 
-## 3. Staged Launch Issue Pool (Initial Activation)
+## 3. Staged Launch Issue Pool & Hacktoberfest Pipeline
 
-The initial community launch activates **5 priority micro-contributions** from [`GITHUB_BEGINNER_ISSUES.md`](GITHUB_BEGINNER_ISSUES.md):
+The community issue factory provides continuous, self-contained micro-contributions across multiple batches:
 
-| Issue ID | Category | Target File | Description | Difficulty |
-| :--- | :--- | :--- | :--- | :--- |
-| **`ISSUE-101`** | Documentation | [`src/lib/money.ts`](../src/lib/money.ts) | Add JSDoc to Money formatting & parsing functions | `difficulty:beginner` |
-| **`ISSUE-102`** | UI/UX | [`src/features/dashboard/components/overview-view.tsx`](../src/features/dashboard/components/overview-view.tsx) | Refine Streak Badge contrast for dark mode | `difficulty:beginner` |
-| **`ISSUE-103`** | Accessibility | [`src/components/ui/keyboard-shortcuts-modal.tsx`](../src/components/ui/keyboard-shortcuts-modal.tsx) | Add ARIA label to Keyboard Shortcuts Modal Close button | `difficulty:beginner` |
-| **`ISSUE-104`** | Testing | [`tests/temporal-engine.test.ts`](../tests/temporal-engine.test.ts) | Add unit tests for leap-year habit boundary calculation | `difficulty:beginner` |
-| **`ISSUE-105`** | Security/Core | [`src/lib/auth/sso-engine.ts`](../src/lib/auth/sso-engine.ts) | Reject malformed domain strings in SSO validator | `difficulty:beginner` |
-
-The remaining 15 verified micro-issues in `docs/GITHUB_BEGINNER_ISSUES.md` remain available in the catalog for staged activation as community participation grows.
+| Issue Batch | Catalog File | Description | Target Group |
+| :--- | :--- | :--- | :--- |
+| **Issues #101–#105** | [`docs/GITHUB_BEGINNER_ISSUES.md`](GITHUB_BEGINNER_ISSUES.md) | Staged initial activation (JSDoc, contrast, ARIA, leap-year tests) | First-time contributors |
+| **Issues #107–#113** | [`docs/GITHUB_BEGINNER_ISSUES_107_113.md`](GITHUB_BEGINNER_ISSUES_107_113.md) | Frontend component ergonomics & unit tests | UI & testing contributors |
+| **Issues #130–#138** | [`docs/GITHUB_BEGINNER_ISSUES_130_138.md`](GITHUB_BEGINNER_ISSUES_130_138.md) | Accessibility, aria tags, and domain schema validators | A11y & full-stack |
+| **Issues #140–#164** | [`docs/GITHUB_BEGINNER_ISSUES_140_164.md`](GITHUB_BEGINNER_ISSUES_140_164.md) | 25 self-contained micro-tasks for Hacktoberfest | Hacktoberfest 2026 |
+| **Issues #166–#185** | [`docs/GITHUB_BEGINNER_ISSUES_166_185.md`](GITHUB_BEGINNER_ISSUES_166_185.md) | 20 curated Hacktoberfest good first issues | Hacktoberfest 2026 |
+| **Issues #187–#204** | [`docs/GITHUB_HIGH_IMPACT_ISSUES_187_204.md`](GITHUB_HIGH_IMPACT_ISSUES_187_204.md) | High-impact community growth and architecture issues | Senior contributors |
+| **Issues #564–#608** | [`docs/GITHUB_BEGINNER_ISSUES.md`](GITHUB_BEGINNER_ISSUES.md) | Zero-dependency pure TypeScript utilities & algorithms | First-timers & Hacktoberfest |
 
 ---
 
@@ -112,11 +115,17 @@ Maintainers must protect the following core architecture boundaries from uninten
 Maintainers can run the single-command preflight audit at any time to verify system health:
 
 ```bash
-# Full Preflight Audit (12 Quality Gates)
-node scratch/release-check.mjs
+# Full Automated Unit & Integration Matrix (85 Test Suites)
+npm test
 
-# Fast Unit Test Matrix (56 Test Suites)
-node scratch/run-tests.mjs
+# Full Preflight Release Audit (12 Quality Gates)
+npm run release:check
+
+# TypeScript Typecheck
+npm run typecheck
+
+# Code Style & Lint
+npm run lint
 
 # Zero-Secret Scan
 node scratch/secret-scan.mjs
