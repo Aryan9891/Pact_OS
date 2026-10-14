@@ -12,6 +12,7 @@ Welcome to the canonical documentation for **PACT** — a Personal Operating Sys
 ```
 docs/
 ├── CI_PIPELINE.md                      # ⚙️ GitHub Actions CI Pipeline & Automated Quality Gates
+├── CODE_REVIEW_POLICY.md               # ✅ Code Review Criteria, Maintainer SLA & Merge Requirements
 ├── CONTRIBUTING-BEGINNERS.md           # 🌱 Beginner Contributor Zero-to-PR Walkthrough
 ├── DEPENDENCY_SECURITY.md              # 🛡️ Dependency Health, Security Auditing & Supply-Chain Policy
 ├── GITHUB_AUTOMATION.md                # 🤖 GitHub Automation, Triage Bot & Policy Engine Architecture
@@ -25,9 +26,12 @@ docs/
 ├── GITHUB_ISSUE_FACTORY.md             # 🏭 Issue Factory Architecture & Search Discovery Guidelines
 ├── GITHUB_LABELS.md                    # 🏷️ Canonical GitHub Issue Taxonomy & Label Dictionary
 ├── GITHUB_METADATA.md                  # 🌐 Canonical Repository Topics, Metadata & Discoverability
+├── KEYBOARD_SHORTCUTS.md               # ⌨️ Master Keyboard Shortcuts Reference & Modal Navigation Spec
+├── LOCAL_FIRST_STORAGE.md              # 💾 Local-First Persistence, Offline Queue & Sync Architecture
 ├── MAINTAINER-HEALTH.md                # 📊 Maintainer Operational Health Dashboard & Governance
 ├── MAINTAINER-WORKFLOW.md              # Contributor Triage, PR Review & Claim Assignment Runbook
-├── CODE_REVIEW_POLICY.md               # ✅ Code Review Criteria, Maintainer SLA & Merge Requirements
+├── OFFLINE_PWA.md                      # 📱 PWA Service Worker & Static Caching Architecture
+├── OFFLINE_SYNC_ARCHITECTURE.md        # 🔄 Offline-First Sync & Conflict Resolution Engine
 ├── PACT_MASTER_DOCUMENTATION.md        # 🌟 Comprehensive Central Product & Technical Specification
 ├── PHASE-16-PUBLICATION-READINESS.md   # 🚀 Phase 16 Publication Readiness & Launch Certification Report
 ├── PHASE-17-PUBLIC-LAUNCH-CERTIFICATION.md # 📜 Phase 17 Final Public Launch Certification
@@ -38,18 +42,19 @@ docs/
 ├── INTEGRATIONS.md                     # External Proof Connectors (Google Calendar, GitHub, LeetCode, Codeforces)
 ├── SECURITY.md                         # Security Matrix, Zero-Trust Boundaries & Sanitization
 ├── SUPABASE_SECURITY.md                # 🔐 Service Role Key Usage & RLS Policy Best Practices
+├── THEMING.md                          # 🎨 Luxury Obsidian & Gold Theme System Customization Reference
 ├── THREAT_MODEL.md                     # 🛡️ Threat Actor Taxonomy, Attack Surfaces & Defense Mitigations
 ├── DEVELOPMENT.md                      # Local Setup, Development Workflow, Scripts & DB Migrations
 ├── GIT_WORKFLOW.md                     # Branching, Conventional Commits & Pre-Commit Rules
-├── LOCAL_FIRST_STORAGE.md              # 💾 Local-First Persistence, Offline Queue & Sync Architecture
 ├── RELEASE_MANAGEMENT.md               # 📦 Release Engineering, Semantic Versioning & Changelog Standards
 ├── ROADMAP.md                          # Current Verified Status & Future Planned Milestones
 ├── DESIGN_SYSTEM.md                    # Luxury Obsidian Canvas, 3D Celestial Hero & PACT Gold Tokens
-├── TESTING.md                          # 56-Suite Automated Test Matrix & Verification Runbook
+├── TESTING.md                          # 85-Suite Automated Test Matrix & Verification Runbook
 ├── TIMEZONE_GUIDE.md                   # 🌍 Multi-Timezone Setup, UTC Storage & DST Handling
 ├── TROUBLESHOOTING.md                  # 🔧 Practical Diagnostic Guide for Setup, Build & Git Roadblocks
 ├── USER_FLOWS.md                       # Core User Workflows & State Lifecycle Transitions
 ├── DECISIONS.md                        # Architecture Decision Records (ADRs)
+├── WEBHOOK_PAYLOAD_SPECIFICATION.md    # 📡 Financial Accountability Webhook Event Payload Specification
 ├── PRODUCTION_DEPLOYMENT_RUNBOOK.md    # Production Deployment, Environment Variables & Verification
 └── archive/                            # Historical Development Phase Reports (Phases 4-6)
     └── README.md                       # Archive Index
@@ -79,7 +84,7 @@ docs/
 
 ### 3. Developer Guide, Community & Operations
 - [**Beginner's Contribution Guide**](./CONTRIBUTING-BEGINNERS.md): Zero-to-PR step-by-step tutorial for first-time open-source contributors.
-- [**Curated Beginner Issues**](./GITHUB_BEGINNER_ISSUES.md): Master factory of 44 fully specified Good First Issues across all PACT modules ([#107–#113](./GITHUB_BEGINNER_ISSUES_107_113.md), [#130–#138](./GITHUB_BEGINNER_ISSUES_130_138.md)).
+- [**Curated Beginner Issues**](./GITHUB_BEGINNER_ISSUES.md): Master factory of 150+ fully specified Good First Issues across all PACT modules ([#564–#608](https://github.com/TheVicky1/Pact_OS/issues?q=is%3Aissue+is%3Aopen+label%3Ahacktoberfest), [#187–#204](./GITHUB_HIGH_IMPACT_ISSUES_187_204.md), [#166–#185](./GITHUB_BEGINNER_ISSUES_166_185.md), [#140–#164](./GITHUB_BEGINNER_ISSUES_140_164.md), [#130–#138](./GITHUB_BEGINNER_ISSUES_130_138.md), [#107–#113](./GITHUB_BEGINNER_ISSUES_107_113.md)).
 - [**Issue Factory Architecture**](./GITHUB_ISSUE_FACTORY.md): 15-part issue specification, SEO discovery rules, and domain search vocabulary.
 - [**Community Discussions Guide**](./GITHUB_DISCUSSIONS.md): GitHub Discussions categories, ideas lifecycle, and contributor journey.
 - [**GitHub Label Taxonomy**](./GITHUB_LABELS.md): Official issue classification system, difficulty levels, and label composition guide.
