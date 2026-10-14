@@ -28,30 +28,51 @@ The badge and avatar gallery below fetch live data automatically from GitHub whe
 
 ---
 
-## 🌟 Community Contributors
+## 🌟 Community Contributors (41 Total)
 
-As community pull requests are accepted and merged into PACT, contributors are recognized here in our Hall of Fame:
+As community pull requests are accepted and merged into PACT, contributors are permanently honored here in our Hall of Fame:
 
-### 💻 Code, Features & Hooks
+### 💻 Core Engineering, Features & Custom Hooks
+- **Arthur Joseph Lawson** ([@ArthurJosephLawson](https://github.com/ArthurJosephLawson)) ([#544](https://github.com/TheVicky1/Pact_OS/pull/544), [#547](https://github.com/TheVicky1/Pact_OS/pull/547), [#548](https://github.com/TheVicky1/Pact_OS/pull/548), [#549](https://github.com/TheVicky1/Pact_OS/pull/549), [#550](https://github.com/TheVicky1/Pact_OS/pull/550), [#551](https://github.com/TheVicky1/Pact_OS/pull/551), [#552](https://github.com/TheVicky1/Pact_OS/pull/552), [#553](https://github.com/TheVicky1/Pact_OS/pull/553)) — *Comprehensive technical guides across offline sync, service workers, Supabase security, webhooks, and code review policy*
+- **@ZeroElemental** ([@ZeroElemental](https://github.com/ZeroElemental)) ([#274](https://github.com/TheVicky1/Pact_OS/pull/274), [#313](https://github.com/TheVicky1/Pact_OS/pull/313), [#335](https://github.com/TheVicky1/Pact_OS/pull/335), [#336](https://github.com/TheVicky1/Pact_OS/pull/336), [#418](https://github.com/TheVicky1/Pact_OS/pull/418), [#438](https://github.com/TheVicky1/Pact_OS/pull/438), [#439](https://github.com/TheVicky1/Pact_OS/pull/439)) — *Implemented habit completion heatmap aggregator, global keyboard shortcut registry, goal progress calculations, SearchInput, CopyToClipboardButton, and 52-week calendar grid*
 - **@Revan0809** ([@Revan0809](https://github.com/Revan0809)) ([#292](https://github.com/TheVicky1/Pact_OS/pull/292), [#301](https://github.com/TheVicky1/Pact_OS/pull/301), [#311](https://github.com/TheVicky1/Pact_OS/pull/311), [#312](https://github.com/TheVicky1/Pact_OS/pull/312)) — *Added `usePageMetadata` hook, `sanitizeTextInput` sanitizer, dynamic favicon unread alert badge counter, and offline cache schema tests*
-- **@ZeroElemental** ([@ZeroElemental](https://github.com/ZeroElemental)) ([#274](https://github.com/TheVicky1/Pact_OS/pull/274), [#313](https://github.com/TheVicky1/Pact_OS/pull/313), [#335](https://github.com/TheVicky1/Pact_OS/pull/335), [#336](https://github.com/TheVicky1/Pact_OS/pull/336)) — *Implemented habit completion heatmap aggregator, global keyboard shortcut registry, and goal progress percentage calculation*
+- **Gautam** ([@Gautam5471](https://github.com/Gautam5471)) ([#521](https://github.com/TheVicky1/Pact_OS/pull/521), [#588](https://github.com/TheVicky1/Pact_OS/pull/588), [#589](https://github.com/TheVicky1/Pact_OS/pull/589)) — *Implemented screen wake lock API manager for active focus sessions, enforced 100-character habit limit, and added global keyboard shortcut reference*
+- **@mutabalShawandar** ([@mutabalShawandar](https://github.com/mutabalShawandar)) ([#386](https://github.com/TheVicky1/Pact_OS/pull/386), [#407](https://github.com/TheVicky1/Pact_OS/pull/407), [#442](https://github.com/TheVicky1/Pact_OS/pull/442)) — *Implemented `useBatteryStatus` hook to optimize background sync on low battery, added DB index for accountability circles, and fixed profile signup email trigger*
+- **Punam Shrestha** ([@pun4m-srestha](https://github.com/pun4m-srestha)) ([#445](https://github.com/TheVicky1/Pact_OS/pull/445), [#504](https://github.com/TheVicky1/Pact_OS/pull/504), [#518](https://github.com/TheVicky1/Pact_OS/pull/518)) — *Added character counter badge component, unsaved changes warning modal, and notification loading skeleton*
 - **Aditya** ([@Aditya-9-6](https://github.com/Aditya-9-6)) ([#242](https://github.com/TheVicky1/Pact_OS/pull/242), [#243](https://github.com/TheVicky1/Pact_OS/pull/243), [#244](https://github.com/TheVicky1/Pact_OS/pull/244)) — *Added `formatSecondsToHumanReadable` time helper, hex color theme validator, and `sanitizeSearchQuery` with `searchCommandRegistry`*
-- **@mutabalShawandar** ([@mutabalShawandar](https://github.com/mutabalShawandar)) ([#386](https://github.com/TheVicky1/Pact_OS/pull/386), [#407](https://github.com/TheVicky1/Pact_OS/pull/407)) — *Implemented `useBatteryStatus` hook to optimize background sync on low battery and added database index for `accountability_circle_members`*
-- **Aman** ([@AMAN240310](https://github.com/AMAN240310)) ([#389](https://github.com/TheVicky1/Pact_OS/pull/389)) — *Implemented `RenderBudgetMonitor` utility component for detecting slow UI component rendering*
+- **Aman** ([@AMAN240310](https://github.com/AMAN240310)) ([#389](https://github.com/TheVicky1/Pact_OS/pull/389), [#441](https://github.com/TheVicky1/Pact_OS/pull/441)) — *Implemented `RenderBudgetMonitor` utility for slow render detection and `useIdleTask` hook with `requestIdleCallback` fallback*
+- **Sahil Thakur** ([@sahilthakurr24](https://github.com/sahilthakurr24)) ([#602](https://github.com/TheVicky1/Pact_OS/pull/602)) — *Implemented verification PIN generator with Luhn check digit algorithm in `src/lib/accountability/pin-verifier.ts`*
+- **Gaurav Patil** ([@GauravPatil2515](https://github.com/GauravPatil2515)) ([#590](https://github.com/TheVicky1/Pact_OS/pull/590)) — *Implemented color hex alpha transparency utility in `src/lib/ui/hex-opacity.ts`*
+- **Ayaan Qazi** ([@ayaan-qazi](https://github.com/ayaan-qazi)) ([#576](https://github.com/TheVicky1/Pact_OS/pull/576)) — *Implemented deterministic category tag color palette generator in `src/lib/focus/tag-palette.ts`*
+- **Naman Goyal** ([@namangoyal176-10](https://github.com/namangoyal176-10)) ([#575](https://github.com/TheVicky1/Pact_OS/pull/575)) — *Implemented daily ritual progress and step completion calculator in `src/lib/rituals/progress-calculator.ts`*
+- **@aipd506** ([@aipd506](https://github.com/aipd506)) ([#562](https://github.com/TheVicky1/Pact_OS/pull/562)) — *Added pure utilities for slugify, password entropy, cycle tracking, streak freeze, and mobile haptics*
+- **Furox Art** ([@Furox-Art](https://github.com/Furox-Art)) ([#554](https://github.com/TheVicky1/Pact_OS/pull/554)) — *Added animated loading state to DataExportButton component*
+- **Aadarsh Soni** ([@AadarshSoni24](https://github.com/AadarshSoni24)) ([#443](https://github.com/TheVicky1/Pact_OS/pull/443)) — *Implemented auto-save indicator badge component in `src/components/settings/auto-save-indicator.tsx`*
+- **@lb1192176991-lab** ([@lb1192176991-lab](https://github.com/lb1192176991-lab)) ([#437](https://github.com/TheVicky1/Pact_OS/pull/437)) — *Implemented local storage quota exceeded error detector in `src/lib/storage-quota.ts`*
+- **@progremister** ([@progremister](https://github.com/progremister)) ([#436](https://github.com/TheVicky1/Pact_OS/pull/436)) — *Implemented font scale selector and typography preferences in settings*
+- **Aniket** ([@aniKet0753](https://github.com/aniKet0753)) ([#419](https://github.com/TheVicky1/Pact_OS/pull/419)) — *Implemented notification alert tone picker in settings*
 - **Harvar** ([@Harvar3105](https://github.com/Harvar3105)) ([#334](https://github.com/TheVicky1/Pact_OS/pull/334)) — *Added interactive scroll reading progress bar component*
 - **SRGGSS** ([@SRGGSS](https://github.com/SRGGSS)) ([#245](https://github.com/TheVicky1/Pact_OS/pull/245)) — *Added `convertMinutesToMilliseconds` time conversion helper and unit tests*
 - **Youssef Emad** ([@youssefemad-dev](https://github.com/youssefemad-dev)) ([#310](https://github.com/TheVicky1/Pact_OS/pull/310)) — *Implemented global React error boundary component with graceful fallback rendering*
-- **Kevin Lozada Santos** ([@kevin-lozada-santos](https://github.com/kevin-lozada-santos)) ([#47](https://github.com/TheVicky1/Pact_OS/pull/47)) — *Fixed category balance clamping and preserved overage display in Budget Discipline Card (`src/features/finance/components/budget-discipline-card.tsx`)*
+- **Marco Schulz** ([@marcoschulzcheck24](https://github.com/marcoschulzcheck24)) ([#454](https://github.com/TheVicky1/Pact_OS/pull/454)) — *Standardized empty focus history state in `src/features/focus/components/focus-history-card.tsx`*
+- **Kevin Lozada Santos** ([@kevin-lozada-santos](https://github.com/kevin-lozada-santos)) ([#47](https://github.com/TheVicky1/Pact_OS/pull/47)) — *Fixed category balance clamping and preserved overage display in Budget Discipline Card*
 
 ### ♿ Accessibility (a11y) & UI Ergonomics
 - **Durga Tharshini** ([@DurgaTharshini26](https://github.com/DurgaTharshini26)) ([#119](https://github.com/TheVicky1/Pact_OS/pull/119), [#122](https://github.com/TheVicky1/Pact_OS/pull/122), [#316](https://github.com/TheVicky1/Pact_OS/pull/316)) — *Added keyboard navigation support, focus ring accessibility to notification toggles, and habit card toggle focus ring*
 - **Abirami Prabhakar** ([@abirami-prabhakar](https://github.com/abirami-prabhakar)) ([#123](https://github.com/TheVicky1/Pact_OS/pull/123), [#125](https://github.com/TheVicky1/Pact_OS/pull/125), [#129](https://github.com/TheVicky1/Pact_OS/pull/129)) — *Standardized hover elevation & gold border on streak summary card, corrected zero-state pluralization in daily cadence widget, and added duplicate tag deduplication tests*
 
 ### 🧪 Testing & Quality Assurance
+- **Aarti Kandpal** ([@AartiKandpal](https://github.com/AartiKandpal)) ([#536](https://github.com/TheVicky1/Pact_OS/pull/536)) — *Added edge-case unit test suite for multi-locale currency formatter*
+- **@s97472091-pixel** ([@s97472091-pixel](https://github.com/s97472091-pixel)) ([#519](https://github.com/TheVicky1/Pact_OS/pull/519)) — *Added boundary coverage tests for offline sync exponential backoff retry*
+- **Afif M** ([@afifm561](https://github.com/afifm561)) ([#506](https://github.com/TheVicky1/Pact_OS/pull/506)) — *Added test assertions for local storage quota error detection and warning dispatch*
+- **@vns-agm** ([@vns-agm](https://github.com/vns-agm)) ([#485](https://github.com/TheVicky1/Pact_OS/pull/485)) — *Added boundary test cases for negative and sub-cent integer amounts in finance module*
+- **@AK-Lmn** ([@AK-Lmn](https://github.com/AK-Lmn)) ([#444](https://github.com/TheVicky1/Pact_OS/pull/444)) — *Wrote comprehensive unit test suite for number range clamp helper*
 - **Ananya P Selvam** ([@Ananyapselvam](https://github.com/Ananyapselvam)) ([#124](https://github.com/TheVicky1/Pact_OS/pull/124), [#127](https://github.com/TheVicky1/Pact_OS/pull/127)) — *Added exact budget boundary coverage unit test in `tests/budget-remaining.test.ts` and explicit return type annotations to money helpers*
 - **Sergio Prica** ([@sergioprica](https://github.com/sergioprica)) ([#207](https://github.com/TheVicky1/Pact_OS/pull/207), [#229](https://github.com/TheVicky1/Pact_OS/pull/229)) — *Added 2028 leap-year boundary streak calculation test and Prettier code formatting guidelines box to beginner contribution guides*
 
-### 📖 Documentation & Technical Writing
+### 📖 Documentation, Theming & Technical Writing
+- **Raj Modi** ([@rajmodi8905](https://github.com/rajmodi8905)) ([#563](https://github.com/TheVicky1/Pact_OS/pull/563)) — *Documented UTC offset calculations in `docs/TIMEZONE_GUIDE.md`*
+- **Praneetha** ([@codedbypraneetha](https://github.com/codedbypraneetha)) ([#486](https://github.com/TheVicky1/Pact_OS/pull/486)) — *Authored comprehensive theme customization reference in `docs/THEMING.md`*
 - **@computerdude11111** ([@computerdude11111](https://github.com/computerdude11111)) ([#106](https://github.com/TheVicky1/Pact_OS/pull/106), [#117](https://github.com/TheVicky1/Pact_OS/pull/117)) — *Clarified Supabase RLS policy recursion & missing environment variables in `docs/TROUBLESHOOTING.md`*
 - **Shivam** ([@shivamcoderrrr](https://github.com/shivamcoderrrr)) ([#241](https://github.com/TheVicky1/Pact_OS/pull/241)) — *Added detailed environment variables setup guide to project documentation*
 - **Janani** ([@jananiwashere](https://github.com/jananiwashere)) ([#246](https://github.com/TheVicky1/Pact_OS/pull/246)) — *Added port conflict resolution and local dev server troubleshooting guide*
@@ -73,5 +94,5 @@ As community pull requests are accepted and merged into PACT, contributors are r
 ## 🤝 How to Get Listed
 
 If you have contributed to PACT and your pull request has been merged:
-1. Contributors are welcome to add themselves to this file in their PR, or maintainers will add you upon merging.
+1. Contributors are automatically recognized in this Hall of Fame upon PR merge.
 2. For guidelines on contributing, see [CONTRIBUTING.md](CONTRIBUTING.md) and [docs/CONTRIBUTING-BEGINNERS.md](docs/CONTRIBUTING-BEGINNERS.md).
