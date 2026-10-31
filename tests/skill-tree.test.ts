@@ -244,3 +244,4 @@ describe('generateCharacterSheet', () => {
     assert.strictEqual(sheet.attributes.social.level, 1);
   });
 });
+

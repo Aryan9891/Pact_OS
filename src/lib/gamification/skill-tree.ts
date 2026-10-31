@@ -78,16 +78,15 @@ function getDominantArchetype(attribute: CharacterAttribute): string {
 function determineArchetypeTitle(
   levels: Record<CharacterAttribute, number>,
   dominant: CharacterAttribute,
-  imbalanceScore: number,
 ): string {
   const levelValues = CHARACTER_ATTRIBUTES.map((attr) => levels[attr]);
   const minLevel = Math.min(...levelValues);
   const maxLevel = Math.max(...levelValues);
   const mean = levelValues.reduce((sum, v) => sum + v, 0) / levelValues.length;
 
-  // If balanced within 10% or imbalance score <= 10
+  // Balanced when the level spread is within 10% of the mean
   const isWithinTenPercent = maxLevel === minLevel || (maxLevel - minLevel) / mean <= 0.1;
-  if (isWithinTenPercent || imbalanceScore <= 10) {
+  if (isWithinTenPercent) {
     return 'The Balanced Master';
   }
 
@@ -181,7 +180,7 @@ export function generateCharacterSheet(
     imbalanceScore = Math.min(100, Math.max(0, Math.round((cv / maxCv) * 10000) / 100));
   }
 
-  const archetypeTitle = determineArchetypeTitle(levels, dominantAttribute, imbalanceScore);
+  const archetypeTitle = determineArchetypeTitle(levels, dominantAttribute);
   const overallCharacterLevel = calculateAttributeLevel(totalXp).level;
 
   return {
@@ -194,3 +193,4 @@ export function generateCharacterSheet(
     archetypeTitle,
   };
 }
+
